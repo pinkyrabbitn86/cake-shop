@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cake shop</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="g-navi">
+      <div class="container nav-wrapper">
+        <ul>
+          <li class="nav-item"><a href="#concept">CONCEPT</a></li>
+          <li class="nav-item"><a href="#feature">FEATURE</a></li>
+          <li class="nav-item"><a href="#thought">THOUGHT</a></li>
+          <li class="nav-item"><a href="#lineup">LINE UP</a></li>
+          <li class="nav-item"><a href="#store">STORE</a></li>
+          <li class="nav-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- SPのグローバルナビゲーション -->
+    <nav class="g-navi-sp"> <!-- ① -->
+      <div class="sp-logo"> <!-- ② -->
+        <p class="logo-title">cake shop</p>
+      </div>
+      <!-- ハンバーガーメニュー  -->
+      <div class="menu-trigger"> <!-- ③ -->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+  <section id="main-visual">
+    <!-- メインビジュアルの要素が入ります -->
+    <div class="container mv-wrapper">
+      <div class="mv-right">
+        <h1>cake shop</h1>
+        <p class="text">ひとくちにしあわせは宿る</p>
+        <div class="purchase-button">
+          <a href="#lineup">ご購入はこちら</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="concept">
+    <!-- コンセプトエリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Concept</h2>
+        <span class="ja-title">コンセプト</span>
+      </div>
+      <div class="concept-copy">
+        <h3 class="main-copy">ひとくちにしあわせは宿る</h3>
+        <p class="concept-text">コンセプトは<br><strong>いつでも楽しめる上質ケーキ</strong></p>
+        <p class="concept-text">愛らしいかたちと口に入れた瞬間のハーモニーを、手軽に感じてもらいたい。<br>その願いを込めて、私たちはケーキを作っています。</p>
+        <p class="concept-text">慌ただしい「いま」を生きる皆様を、<br>ケーキがそばにあるスイートな日常で、包み込みたい。</p>
+        <p class="concept-text">今日の気分は、これ。明日は、これ。<br>Atlas発の新作ケーキを是非御賞味ください。</p>
+      </div>
+    </div>
+  </section>
+  <section id="feature">
+    <!-- こだわりエリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Feature</h2>
+        <span class="ja-title">こだわり</span>
+      </div>
+      <div class="feature-wrapper">
+        <!-- 1つ目こだわりボックス -->
+        <div class="feature-box box-design">
+          <img class="feature-image" src="./image/feature01.png" alt="material">
+          <div class="feature-text">
+            <span class="feature-number">Point1</span>
+            <h3 class="feature-title">安心安全の素材</h3>
+            <p class="feature-about about-text">身体に優しい素材を仕入れ、丁寧に仕上げます。ケーキの中に入れるジャムやチョコも有機栽培で作られた果実のみ使用。</p>
+          </div>
+        </div>
+        <!-- 2つ目のこだわりボックス -->
+        <div class="feature-box box-design">
+          <img class="feature-image" src="./image/feature02.png" alt="material">
+          <div class="feature-text">
+            <span class="feature-number">Point2</span>
+            <h3 class="feature-title">徹底したこだわり</h3>
+            <p class="feature-about about-text">バタークリームは国産を採用しています。中はまろやか、見た目も華やかに。</p>
+          </div>
+        </div>
+        <!-- 3つ目のこだわりボックス -->
+        <div class="feature-box box-design">
+          <img class="feature-image" src="./image/feature03.png" alt="material">
+          <div class="feature-text">
+            <span class="feature-number">Point3</span>
+            <h3 class="feature-title">可愛らしいパッケージ</h3>
+            <p class="feature-about about-text">手に取った時の「ほっこり」とした気分。目で感じ、舌でも感じるやさしい温もり。状況に合ったパッケージをお選び下さい。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="thought">
+    <!-- パティシエの想いエリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Thought</h2>
+        <p class="ja-title">想い</p>
+      </div>
+      <!-- スライダー -->
+      <div class="thought-container">
+        <!-- 1枚目のスライド -->
+        <div class="staff-box box-design active">
+          <img class="staff-image" src="./image/thought01.png" alt="シェフ田中啓介">
+          <div class="staff-text">
+            <h3 class="staff-title">お客様が口に運ぶ瞬間までをデザインする</h3>
+            <p class="staff-about about-text">ケーキはお菓子の宝石とも称されます。見て感動、口に入れて感動してもらえるケーキを作りたいと思い厨房にいます。毎夜スタッフで作っては試食を重ね毎月必ず新商品をリリースしています。心を込めたケーキをぜひご賞味頂きたいです。</p>
+            <p class="staff-name about-text">パティシエ 田中啓介</p>
+          </div>
+        </div>
+        <!-- 2枚目のスライド -->
+        <div class="staff-box">
+          <img class="staff-image" src="./image/thought01.png" alt="ホール 安田裕美">
+          <div class="staff-text">
+            <h3 class="staff-title">笑顔を絶やさず</h3>
+            <p class="staff-about about-text">ケーキと合うお飲み物をオススメするのが私たちの仕事です。特に初めていらっしゃるお客様にはステキな時間を過ごして頂けるよう、笑顔で接客する事を心がけています。cake shopでのひと時が次の活力になれれば幸せです。</p>
+            <p class="staff-name about-text">ホール 安田裕美</p>
+          </div>
+        </div>
+        <!-- 3枚目のスライド -->
+        <div class="staff-box">
+          <img class="staff-image" src="./image/thought01.png" alt="バリスタ 沖田杏奈">
+          <div class="staff-text">
+            <h3 class="staff-title">ケーキ×〇〇=∞</h3>
+            <p class="staff-about about-text">ケーキに合うお飲み物をプロデュースしています。ケーキひとつ取っても、鼻から抜ける風味はそれぞれ特徴があります。ステキな時間を最適なお飲み物とケーキを食べながら過ごしませんか？</p>
+            <p class="staff-name about-text">バリスタ 沖田杏奈</p>
+          </div>
+        </div>
+        <span class="slide-button prev"><img src="./image/left.png" width="30px" height="30px"></span>
+        <span class="slide-button next"><img src="./image/right.png" width="30px" height="30px"></span>
+      </div>
+      <!-- 戻る・進むボタン -->
+      <span class="slide-button prev"></span>
+      <span class="slide-button next"></span>
+    </div>
+    </div>
+  </section>
+  <section id="cakelife">
+    <!-- ケーキライフエリアの要素 -->
+    <div class="container">
+      <div class="title">
+        <h2>Cake Life</h2>
+        <p class="ja-title">豊かなケーキライフ</p>
+      </div>
+      <!-- ライフボックス内の要素を定義 -->
+      <div class="life-wrapper">
+        <!-- 1-teatime -->
+        <div class="life-type">
+          <a href="#">
+            <img class="life-img" src="./image/cakelife01.png" alt="teatime">
+            <p class="life-name">tea time</p>
+          </a>
+        </div>
+        <!-- 2-party -->
+        <div class="life-type">
+          <a href="#">
+            <img class="life-img" src="./image/cakelife02.png" alt="party">
+            <p class="life-name">party</p>
+          </a>
+        </div>
+        <!-- 3-gifts -->
+        <div class="life-type">
+          <a href="#">
+            <img class="life-img" src="./image/cakelife03.png" alt="gifts">
+            <p class="life-name">gifts</p>
+          </a>
+        </div>
+        <!-- 4-seasonal -->
+        <div class="life-type">
+          <a href="#">
+            <img class="life-img" src="./image/cakelife04.png" alt="season">
+            <p class="life-name">season</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="lineup">
+    <!-- ラインナップエリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Line up</h2>
+        <p class="ja-title">シチュエーション別のおすすめ</p>
+      </div>
+      <div class="lineup-menu">
+        <ul class="filter">
+          <li class="lineup-tab active" data-filter="ranking"><a class="ranking" href="#">ranking</a></li>
+          <li class="lineup-tab" data-filter="tea"><a class="tea" href="#">tea time</a></li>
+          <li class="lineup-tab" data-filter="party"><a class="party" href="#">party</a></li>
+          <li class="lineup-tab" data-filter="gifts"><a class="gifts" href="#">gifts</a></li>
+          <li class="lineup-tab" data-filter="season"><a class="season" href="#">season</a></li>
+        </ul>
+      </div>
+      <div class="lineup-wrapper">
+        <!-- ラインナップボックス×3つ -->
+        <!-- 商品1つ目 -->
+        <div class="lineup-product tea" data-category="tea">
+          <div class="lineup-image">
+            <img src="./image/cake01.png" alt="タルト">
+          </div>
+          <div class="lineup-about">
+            <div class="lineup-name">
+              <span class="name-en">Tart</span>
+              <span class="name-ja">タルト</span>
+            </div>
+            <p class="lineup-text about-text">タルト生地の香ばしさがいちごを引き立てる逸品。</p>
+          </div>
+        </div>
+        <!-- 商品2つ目 -->
+        <div class="lineup-product party" data-category="party">
+          <div class="lineup-image">
+            <img src="./image/cake02.png" alt="ショートケーキ">
+          </div>
+          <div class="lineup-about">
+            <div class="lineup-name">
+              <span class="name-en">Short cake</span>
+              <span class="name-ja">ショートケーキ</span>
+            </div>
+            <p class="lineup-text about-text">ケーキの王様。こだわりの王道をめしあがれ。</p>
+          </div>
+        </div>
+        <!-- 商品3つ目 -->
+        <div class="lineup-product gifts" data-category="gifts">
+          <div class="lineup-image">
+            <img src="./image/cake03.png" alt="チョコレート">
+          </div>
+          <div class="lineup-about">
+            <div class="lineup-name">
+              <span class="name-en">Chocolate</span>
+              <span class="name-ja">チョコレート</span>
+            </div>
+            <p class="lineup-text about-text">チョコレートとフルーツのハーモニーを楽しめる一品。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-lineup">
+        <a href="#" class="btn-more">more</a>
+      </div>
+    </div>
+  </section>
+  <section id="package">
+    <!-- パッケージエリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Package</h2>
+        <p class="ja-title">場面に合わせて3種類からお選びいただけます</p>
+      </div>
+      <div class="package-wrapper">
+        <!-- パッケージボックス×3つ -->
+        <!-- 1つ目のパッケージボックス -->
+        <div class="package-lineup">
+          <!-- 画像エリア -->
+          <img class="package-image" src="./image/package3.png" alt="3個入り">
+          <!-- テキストエリア -->
+          <div class="pack-text">
+            <h3 class="package-title">スペシャルケーキ 3個入り</h3>
+            <p class="package-value">¥910（税込）</p>
+          </div>
+          <!-- 購入エリア -->
+          <div class="purchase-wrapper">
+            <select class="package-select" name="select">
+              <option value="">ケーキを選ぶ</option>
+              <option value="Tart">タルト</option>
+              <option value="Shortcake">ショートケーキ</option>
+              <option value="Chocolate">チョコレート</option>
+            </select>
+            <div class="purchase-number">
+              数量：
+              <select class="number" name="number">
+
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="select-cart">
+              <a href="#">
+                カートに入れる
+              </a>
+            </div>
+          </div>
+          <!-- 紹介文 -->
+          <p class="package-text about-text">お好みのケーキ3個が入ったミニセット。1週間がんばった自分へのご褒美に。</p>
+        </div>
+        <!-- 2つ目のパッケージボックス -->
+        <div class="package-lineup">
+          <!-- 画像 -->
+          <img class="package-image" src="./image/package6.png" alt="6個入り">
+          <!-- テキストエリア -->
+          <div class="pack-text">
+            <h3 class="package-title">スペシャルケーキ 6個入り</h3>
+            <p class="package-value">¥1,820（税込）</p>
+          </div>
+          <!-- 購入エリア -->
+          <div class="purchase-wrapper">
+            <select class="package-select" name="select">
+              <option value="">ケーキを選ぶ</option>
+              <option value="Tart">タルト</option>
+              <option value="Shortcake">ショートケーキ</option>
+              <option value="Chocolate">チョコレート</option>
+            </select>
+            <div class="purchase-number">
+              数量：
+              <select class="number" name="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="select-cart">
+              <a href="#">
+                カートに入れる
+              </a>
+            </div>
+          </div>
+          <!-- 紹介文 -->
+          <p class="package-text about-text">お好みのケーキ6個が入ったセット。ご友人の方へ、日頃の感謝を込めて。</p>
+        </div>
+        <!-- 3つ目のパッケージボックス -->
+        <div class="package-lineup">
+          <!-- 画像 -->
+          <img class="package-image" src="./image/package12.png" alt="12個入り">
+          <!-- テキストエリア -->
+          <div class="pack-text">
+            <h3 class="package-title">スペシャルケーキ 12個入り</h3>
+            <p class="package-value">¥3,640（税込）</p>
+          </div>
+          <!-- 購入エリア -->
+          <div class="purchase-wrapper">
+            <select class="package-select" name="select">
+              <option value="">ケーキを選ぶ</option>
+              <option value="Tart">タルト</option>
+              <option value="Shortcake">ショートケーキ</option>
+              <option value="Chocolate">チョコレート</option>
+            </select>
+            <div class="purchase-number">
+              数量：
+              <select class="number" name="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+            <div class="select-cart">
+              <a href="#">
+                カートに入れる
+              </a>
+            </div>
+          </div>
+          <!-- 紹介文 -->
+          <p class="package-text about-text">お好みのケーキ12個が入ったセット。気兼ねなく過ごせる仲間と一緒に素敵なケーキタイムを。</p>
+        </div>　　　
+      </div>
+    </div>
+  </section>
+
+  <section id="store">
+    <!-- 店舗情報エリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Store</h2>
+        <p class="ja-title">店舗情報</p>
+      </div>
+      <div class="store-wrapper">
+        <!-- GoogleMap埋め込み -->
+        <iframe class="map-image" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12962.672164346553!2d139.7527995!3d35.685175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd11a5f0b379e6db7!2z55qH5bGF!5e0!3m2!1sja!2sjp!4v1585758518301!5m2!1sja!2sjp" width="512" height="280" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div class="cafe-text">
+          <p class="store-name">cake shop</p>
+          <address>
+            <p>〒100-8111<br>
+                  東京都千代田区千代田1−1<br>
+                  TEL:<a class="store-address" href="tel:0120000000">0120-000-000</a></p>
+          </address>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <!-- お問い合わせエリアの要素が入ります -->
+    <div class="container">
+      <div class="title">
+        <h2>Contact</h2>
+        <p class="ja-title">お問い合わせ</p>
+      </div>
+      <form action="index.php" method="post">
+        <!-- フォームエリア -->
+        <!-- お名前フォーム -->
+        <div class="ct-block">
+          <label class="contact-text" for="name">お名前</label>
+          <input type="text" name="yourname" placeholder="例：田中太郎" class="form-name">
+        </div>
+        <!-- メールアドレスフォーム -->
+        <div class="ct-block">
+          <label class="contact-text" for="email">メールアドレス</label>
+          <input type="text" name="mail" placeholder="例：xxxxx@△△△△△.com" class="form-mail">
+        </div>
+        <!-- 主なご用件フォーム -->
+        <div class="ct-block">
+          <label for="main" class="contact-text">主なご用件</label>
+          <div class="cp-howto">
+            <select name="main-request" required>
+              <option value="" hidden>ご選択ください</option>
+              <option value="1">お店の予約について</option>
+              <option value="2">宅配サービスについて</option>
+              <option value="3">商品について</option>
+              <option value="4">社員採用について</option>
+            </select>
+          </div>
+        </div>
+        <!-- お問い合わせ内容フォーム -->
+        <div class="ct-block">
+          <label for="request-about" class="contact-text">お問い合わせ内容</label>
+          <textarea name="request-about" id="request-about" cols="60" rows="6" placeholder="ここに記入して下さい"></textarea>
+        </div>
+        <!-- 送信ボタン -->
+        <input class="send-button" type="submit" value="送信">
+      </form>
+    </div>
+  </section>
+  <footer>
+    <!-- フッターエリアの要素が入ります -->
+    <div class="container">
+      <div class="footer-content">
+        <!-- Cake Shop -->
+        <div class="logo-wrapper">
+          <a href="#" class="logo">cake shop</a>
+          <!-- SNSボックス -->
+          <div class="sns-block">
+            <a class="mark" href="https://twitter.com/" target="_blank">
+              <img class="sns-mark" src="./image/twitter.png" alt="twitter">
+            </a>
+            <a class="mark" href="https://www.facebook.com/" target="_blank">
+              <img class="sns-mark" src="./image/facebook.png" alt="facebook">
+            </a>
+            <a class="mark" href="https://www.instagram.com/" target="_blank">
+              <img class="sns-mark" src="./image/instagram.png" alt="instagram">
+            </a>
+          </div>
+        </div>
+        <!-- メニューボックス -->
+        <div class="menu">
+          <ul>
+            <li><a href="#concept">CONCEPT</a></li>
+            <li><a href="#feature">FEATURE</a></li>
+            <li><a href="#thought">THOUGHT</a></li>
+            <li><a href="#lineup">LINE UP</a></li>
+            <li><a href="#store">STORE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <!-- 利用規約ボックス -->
+        <div class="menu">
+          <ul>
+            <li><a href="#">利用規約</a></li>
+            <li><a href="#">特定商取引法について</a></li>
+            <li><a href="#">プライバシーポリシー</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
